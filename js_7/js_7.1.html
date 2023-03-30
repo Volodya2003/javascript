@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+function fun(type,)
+{
+	r2=document.getElementById('e1')
+
+	if(type) r2.style.Size=36pt;		
+	
+	else r2.style.Size=14pt;	
+}
+</script>
+<style>
+span
+{
+font-size:14pt
+}
+span:hover
+{
+font-size:36pt
+}
+</style>
+</head>
+<body>
+<span id = 'e1' onMouseOver="fun(true); onMouseOut="fun(false);">Hello,world</span>
+</body>
+</html>

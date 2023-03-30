@@ -1,0 +1,26 @@
+<head>
+<script>
+i=0;
+function f()
+{
+var color = document.body.style.backgroundColor;
+r2=document.getElementById('e2');
+if (i==0)
+{
+document.body.style.backgroundColor='purple';
+r2.value='изменить на желтый';
+i=1;}
+else
+{
+document.body.style.backgroundColor='yellow';r2.value='изменить на розовый';
+i=0;
+}
+}
+</script>
+</head>
+<body style="background-color: yellow">
+<form>
+<input type="button" id = 'e2' value="изменить на зеленый"
+onClick="f();">
+</form>
+</body>
